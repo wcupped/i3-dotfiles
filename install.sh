@@ -8,7 +8,7 @@ else
 	echo "Your distribution isn't supported, skipping dependencies installation"
 fi
 
-cp dots/* ~/.config/
+cp dots/* ~/.config/ -r
 
 echo "Sucessfully installed dotfiles!"
 echo "Thank you for using my dots!"
