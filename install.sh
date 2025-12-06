@@ -1,7 +1,7 @@
 echo "Installing dependencies"
 
 if [ -x "$(command -v pacman)" ]; then
-	sudo pacman -Sy fish alacritty i3 dmenu i3status mate-polkit picom blueman xdg-desktop-portal xdg-desktop-portal-wlr feh ttc-iosevka j4-dmenu-desktop scrot nautilus firefox
+	sudo pacman -Sy --needed fish alacritty i3-wm dmenu i3status mate-polkit picom blueman xdg-desktop-portal xdg-desktop-portal-wlr feh ttc-iosevka j4-dmenu-desktop scrot nautilus firefox
 elif [ -x "$(command -v apt)" ]; then
 	sudo apt update && sudo apt install -y fish alacritty i3 dmenu i3status amte-polkit picom blueman xdg-desktop-portal xdg-desktop-portal-wlr feh j4-dmenu-desktop scrot nautilus firefox
 else
