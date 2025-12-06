@@ -20,7 +20,8 @@ exec_always --no-startup-id setxkbmap -layout "us,ru" -option grp:alt_shift_togg
 exec --no-startup-id /usr/lib/xdg-desktop-portal-wlr
 exec --no-startup-id /usr/lib/xdg-desktop-portal -r
 
-exec --no-startup-id feh --bg-fill ~/.config/i3/wallpapers/wallpaper.png
+# uncomment to have debian wallpapers
+#exec --no-startup-id feh --bg-fill ~/.config/i3/config/wallpapers/wallpaper.png
 
 set $mod Mod4
 
